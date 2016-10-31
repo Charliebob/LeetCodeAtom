@@ -29,6 +29,6 @@ public class Solution {
         if(isLeft) return root.val;
         return 0;
       }
-      return helper(root.left, true) + helper(root.right, false);
+      return helper(root.left, true) + helper(root.right, false); 
     }
   }
