@@ -18,6 +18,6 @@ public class Solution {
       for(int i=0; i<ransomNote.lenth(); i++){
         if(--alphabet[ransomNote.charAt(i)-'a']<0) return false;
       }
-      return true;
+      return true; 
     }
   }
