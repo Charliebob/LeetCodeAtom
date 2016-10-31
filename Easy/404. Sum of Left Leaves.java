@@ -24,6 +24,6 @@ public class Solution {
       return helper(root, false);
     }
     private int helper(){
-
+      if(root==null) return 0;
     }
-  } 
+  }
